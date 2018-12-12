@@ -1,0 +1,7 @@
+/nbproject/private/
+storage/*
+database/*
+public/*
+resources/*
+vendor/*
+nbproject/*

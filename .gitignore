@@ -5,3 +5,5 @@ public/*
 resources/*
 vendor/*
 nbproject/*
+.env.example
+.env

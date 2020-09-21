@@ -4,17 +4,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class MockBrand extends Model {
+class MockLink extends Model {
 
     protected $connection = 'mysql';
-    protected $table = 'mock_brand';
+    protected $table = 'mock_link';
     protected $primaryKey = 'id';
 
     const CREATED_AT = 'created_at';
     const UPDATED_AT = 'updated_at';
 
-    public function mockBrand() {
-        return $this->belongsTo("\App\Models\MockBrandLink");
-    }
 
 }
